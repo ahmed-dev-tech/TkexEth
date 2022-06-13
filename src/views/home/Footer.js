@@ -2,10 +2,13 @@ import logo from "../../assets/logo.png";
 
 function Footer() {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
 >>>>>>> main
+=======
+>>>>>>> parent of 1f2def1 (wallet connection 1)
     return (
         <>
             <div className=" button-blue pt-5 pb-5 flex justify-center">
@@ -23,9 +26,12 @@ function Footer() {
                 </div>
             </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
             
 =======
 >>>>>>> main
+=======
+>>>>>>> parent of 1f2def1 (wallet connection 1)
         <div>
             <div className="how">
                 <div className="container mx-auto  flex p-3 flex-wrap sm:justify-between justify-center gap-3 items-center">

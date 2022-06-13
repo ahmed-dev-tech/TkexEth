@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { ethers } from "ethers";
 import { useState } from "react";
+=======
+>>>>>>> parent of 1f2def1 (wallet connection 1)
 import logo from "../../assets/logo.png";
 
-
 function Header() {
+<<<<<<< HEAD
 const [btnname,setbtnname] = useState("Connect Wallet")
     let web3;
     async function detectWallet() {
@@ -37,6 +40,8 @@ import logo from "../../assets/logo.png";
 
 function Header() {
 >>>>>>> main
+=======
+>>>>>>> parent of 1f2def1 (wallet connection 1)
     return (
         <>
             <nav class="navbar">
@@ -62,6 +67,7 @@ function Header() {
                     <li><a href="/">About</a></li>
                 </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                 </ul>
                 <button onClick={connectWallet}> {btnname} </button>
@@ -69,6 +75,9 @@ function Header() {
 =======
                 </ul>
 >>>>>>> main
+=======
+                </ul>
+>>>>>>> parent of 1f2def1 (wallet connection 1)
             </nav>
         </>
     )
