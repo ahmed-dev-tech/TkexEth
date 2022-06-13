@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { ethers } from "ethers";
 import { useState } from "react";
 import logo from "../../assets/logo.png";
@@ -31,6 +32,11 @@ const [btnname,setbtnname] = useState("Connect Wallet")
         }
     }
 
+=======
+import logo from "../../assets/logo.png";
+
+function Header() {
+>>>>>>> main
     return (
         <>
             <nav class="navbar">
@@ -55,10 +61,14 @@ const [btnname,setbtnname] = useState("Connect Wallet")
                     <li><a href="/">Community</a></li>
                     <li><a href="/">About</a></li>
                 </div>
+<<<<<<< HEAD
 
                 </ul>
                 <button onClick={connectWallet}> {btnname} </button>
 
+=======
+                </ul>
+>>>>>>> main
             </nav>
         </>
     )
