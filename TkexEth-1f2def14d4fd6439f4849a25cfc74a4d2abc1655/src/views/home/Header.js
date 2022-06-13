@@ -12,9 +12,9 @@ const [btnname,setbtnname] = useState("Connect Wallet")
             try {
                 const accounts = await window.ethereum.request({
                     method: "eth_requestAccounts",
-                })
+                })    
 
-                setbtnname(accounts[0].slice(0,5)+"...."+accounts[0].slice(36,42))           
+                setbtnname(accounts[0].slice(0,5)+"...."+accounts[0].slice(35,-1))           
             } catch (error){
            alert("Error!")
             }   
