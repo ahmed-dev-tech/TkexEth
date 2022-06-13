@@ -1,7 +1,7 @@
-
 import { ethers } from "ethers";
 import { useState } from "react";
 import logo from "../../assets/logo.png";
+
 
 function Header() {
 const [btnname,setbtnname] = useState("Connect Wallet")
@@ -30,6 +30,7 @@ const [btnname,setbtnname] = useState("Connect Wallet")
             const provider = new ethers.providers.Web3Provider(window.ethereum);
         }
     }
+
     return (
         <>
             <nav class="navbar">
@@ -54,6 +55,7 @@ const [btnname,setbtnname] = useState("Connect Wallet")
                     <li><a href="/">Community</a></li>
                     <li><a href="/">About</a></li>
                 </div>
+
                 </ul>
                 <button onClick={connectWallet}> {btnname} </button>
 

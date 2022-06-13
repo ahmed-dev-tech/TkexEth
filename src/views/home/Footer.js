@@ -2,6 +2,7 @@ import logo from "../../assets/logo.png";
 
 function Footer() {
 
+
     return (
         <>
             <div className=" button-blue pt-5 pb-5 flex justify-center">
@@ -18,6 +19,7 @@ function Footer() {
                     </ul>
                 </div>
             </div>
+            
         <div>
             <div className="how">
                 <div className="container mx-auto  flex p-3 flex-wrap sm:justify-between justify-center gap-3 items-center">
